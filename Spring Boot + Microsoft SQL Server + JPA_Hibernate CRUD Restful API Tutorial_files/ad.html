@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- saved from url=(1371)https://ads.everquote.com/gdn/ad?tid=899&w=970&h=250&country=US&lat=42.32&long=-83.18&region=US-MI&metro=505&city=Dearborn&kw=java&pg_kws=java%2Ctutorial%2Chibernate%2Cjpa%2Cspring%20boot&lang=en&page_vert=/Computers+%26+Electronics/Programming/Java&color_bg=&color_line=&color_text=&color_link=&color_url=&ag_id=72852544270&tz=-14400000&price=%%WINNING_PRICE_ESC%%&ord=2133357067&click_url=https://www.googleadservices.com/pagead/aclk%3Fsa%3DL%26ai%3DC5rVGjYotX6DJGMWQtOUPi6uqoATys_DoXdu60JD_CLuZ_I_YCBABIInd42pgye6yiZCk6A-gAcep6esCyAEJqAMBqgSkAk_Q-ayLC3dsz8JAKbtphq2gNtvmif2ZtHgyYZ4g5uPLdD5I4OUoJgJGfad7tMMcWEwskH0EhXNxN4YhpBmhMn4QreCZnM37WGQVjA2ux6YPI38sF91UBT58ogl-wxsxHy06UfzgyD_Ay-49fBhVeJPXkEEP5QJjC-QO-ad3g6CYDSeXbYRXeHKURYOayatRiEqY5I7gV6x6j0etH2GZdiFnbVVp8_n940AS015O8SYD7EXekJpvUn7r5b5QXXlGbezc2x9-Je1j0_ilNX-WjbsPg17GvI9-nAYso1EJfBu4-o-I6kyvodFHhPT2-Mj6zClzeCKC_EWAgULMfYR1jsKXw-o-hYQLowRCcK_WXkBdwqUSNWGCsDxpiyAMy5JJ8OCJJ3XABI625rKPApAGAaAGEYAHodaWlAGIBwGQBwKoB47OG6gH1ckbqAeT2BuoB7oGqAfw2RuoB_LZG6gHpr4bqAfs1RuoB_PRG6gH7NUbqAeW2BuoB8LaG9gHANIIBggAEAIYGoAKAZgLAcgLAYAMAdgTCw%26ae%3D1%26num%3D1%26cid%3DCAMSeQClSFh3LC__bD09F_XC0HwK_k85llhP-LWk5gaNkoNL6Jtcr9yjIPnbccGLkTFN0KjpUPn_CSYzTYMezfGOveSQ_OOPamaj6PKh-5fIQuch7b5XkgJiwcfuhliOpVkvD75wlX9Itwinf3Z0XXmb7oAjKvaBsKbbUQw%26sig%3DAOD64_0blC8szKkq0vyl2oBtbwlAEYX1TQ%26client%3Dca-pub-5573295123036731%26adurl%3D -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="robots" content="noindex"><meta name="ad.size" content="width=970,height=250"><style> body { margin: 0; } .ad { cursor:pointer; } .pixel { opacity: 0; position: absolute; top: 0; left: 0; height: 1; width: 1; } </style><style>  </style><script>
+var getParams = function(url) {
+    if (url.indexOf('?') == -1) {
+        return {};
+    }
+    var params = {};
+    var parser = document.createElement('a');
+    parser.href = url;
+    var query = parser.search.substring(1);
+    var vars = query.split('&');
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split('=');
+        params[pair[0]] = decodeURIComponent(pair[1]);
+    }
+    return params;
+};
+
+var serialize = function(params) {
+  var esc = encodeURIComponent;
+  return Object.keys(params)
+  .map(function(k){ return esc(k) + '=' + esc(params[k])})
+  .join('&');
+}
+
+var addParams = function(url, new_params){
+    var original_params = {};
+    var stripped_url = url;
+    original_params = getParams(url);
+    // https://stackoverflow.com/questions/679915/how-do-i-test-for-an-empty-javascript-object
+    if (!(Object.keys(original_params).length === 0 && original_params.constructor === Object)) {
+        stripped_url = url.substring(0, url.indexOf('?'));
+        for (var og_param in original_params) {
+            if (! (new_params.hasOwnProperty(og_param))) {
+                new_params[og_param] = original_params[og_param];
+            }
+        }
+    }
+    var query = serialize(new_params);
+    var return_url = url;
+    if (query != "") {
+        // add new params if there is any
+        return_url = stripped_url + '?' + query;
+    }
+    return return_url;
+}
+
+var getClickUrl = function(targetUrl, params){
+    var click_url_base = "/gdn/click?parent_uuid=233b86d584fd47d3b50653c7a59b64bb&parent_created_at=2020-08-07T17:08:32.288645&redirect_url=https%3A%2F%2Fwww.googleadservices.com%2Fpagead%2Faclk%3Fsa%3DL%26ai%3DC5rVGjYotX6DJGMWQtOUPi6uqoATys_DoXdu60JD_CLuZ_I_YCBABIInd42pgye6yiZCk6A-gAcep6esCyAEJqAMBqgSkAk_Q-ayLC3dsz8JAKbtphq2gNtvmif2ZtHgyYZ4g5uPLdD5I4OUoJgJGfad7tMMcWEwskH0EhXNxN4YhpBmhMn4QreCZnM37WGQVjA2ux6YPI38sF91UBT58ogl-wxsxHy06UfzgyD_Ay-49fBhVeJPXkEEP5QJjC-QO-ad3g6CYDSeXbYRXeHKURYOayatRiEqY5I7gV6x6j0etH2GZdiFnbVVp8_n940AS015O8SYD7EXekJpvUn7r5b5QXXlGbezc2x9-Je1j0_ilNX-WjbsPg17GvI9-nAYso1EJfBu4-o-I6kyvodFHhPT2-Mj6zClzeCKC_EWAgULMfYR1jsKXw-o-hYQLowRCcK_WXkBdwqUSNWGCsDxpiyAMy5JJ8OCJJ3XABI625rKPApAGAaAGEYAHodaWlAGIBwGQBwKoB47OG6gH1ckbqAeT2BuoB7oGqAfw2RuoB_LZG6gHpr4bqAfs1RuoB_PRG6gH7NUbqAeW2BuoB8LaG9gHANIIBggAEAIYGoAKAZgLAcgLAYAMAdgTCw%26ae%3D1%26num%3D1%26cid%3DCAMSeQClSFh3LC__bD09F_XC0HwK_k85llhP-LWk5gaNkoNL6Jtcr9yjIPnbccGLkTFN0KjpUPn_CSYzTYMezfGOveSQ_OOPamaj6PKh-5fIQuch7b5XkgJiwcfuhliOpVkvD75wlX9Itwinf3Z0XXmb7oAjKvaBsKbbUQw%26sig%3DAOD64_0blC8szKkq0vyl2oBtbwlAEYX1TQ%26client%3Dca-pub-5573295123036731%26adurl%3D"; // ends in redirect_url=
+    var original_destination_url = "https://auto.everquote.com/?e=&f=&h=250&m=&w=970&h1=notice&h2=25_miles&kw=java&tz=-14400000&idl=&lat=42.32&ord=2133357067&tid=261&adid=&c_bg=&city=Dearborn&lang=en&long=-83.18&aeuid=233b86d584fd47d3b50653c7a59b64bb&ag_id=72852544270&c_url=&metro=505&nsync=&price=WINNING_PRICE_ESC&winid=&c_line=&c_link=&c_text=&pg_kws=java%2Ctutorial%2Chibernate%2Cjpa%2Cspring+boot&region=US-MI&country=US&partner=&color_bg=&click_url=True&color_url=&page_vert=%2FComputers+%26+Electronics%2FProgramming%2FJava&campaignid=&color_line=&color_link=&color_text=&creativeid=342313342233&utm_medium=&template_id=2466&dc_dbm_token=&line_item_id=&experiment_id=2628&universal_site_id=&adsxt_publisher_id=&insertion_order_id=&inventory_source_id=";
+    var original_destination_url_params = getParams(original_destination_url)
+    var quote_amount = 2; // the amount of times to quote the url
+    var url_with_original_params = addParams(targetUrl, original_destination_url_params)
+    var url_with_new_params = addParams(url_with_original_params, params)
+    var esc = encodeURIComponent;
+    var encoded_landing = url_with_new_params;
+    for (var i = 0; i < quote_amount; i++) {
+        encoded_landing = esc(encoded_landing);
+    }
+    return click_url_base + encoded_landing;
+}
+
+var noRedirect = function() {
+    event.cancelBubble=true;if (event.stopPropagation) event.stopPropagation();
+}
+
+function ClickableArea(targetUrl, params) {
+    // prevent default click window.open for the entire creative
+    noRedirect();
+    url = getClickUrl(targetUrl, params)
+    window.open(url, "_blank");
+}
+
+var stop_propagation_by_class = function(class_name) {
+    var interactiveElements = document.getElementsByClassName(class_name);
+    for(var i = 0; i < interactiveElements.length; i++) {
+        var elem = interactiveElements[i];
+        elem.onclick = noRedirect;
+    }
+}
+
+window.onload = function() {
+    stop_propagation_by_class('interactive');
+}
+</script></head><body marginwidth="0" marginheight="0"><div id="ad" class="ad" onclick="ClickableArea(&#39;https://auto.everquote.com/?e=&amp;f=&amp;h=250&amp;m=&amp;w=970&amp;h1=notice&amp;h2=25_miles&amp;kw=java&amp;tz=-14400000&amp;idl=&amp;lat=42.32&amp;ord=2133357067&amp;tid=261&amp;adid=&amp;c_bg=&amp;city=Dearborn&amp;lang=en&amp;long=-83.18&amp;aeuid=233b86d584fd47d3b50653c7a59b64bb&amp;ag_id=72852544270&amp;c_url=&amp;metro=505&amp;nsync=&amp;price=WINNING_PRICE_ESC&amp;winid=&amp;c_line=&amp;c_link=&amp;c_text=&amp;pg_kws=java%2Ctutorial%2Chibernate%2Cjpa%2Cspring+boot&amp;region=US-MI&amp;country=US&amp;partner=&amp;color_bg=&amp;click_url=True&amp;color_url=&amp;page_vert=%2FComputers+%26+Electronics%2FProgramming%2FJava&amp;campaignid=&amp;color_line=&amp;color_link=&amp;color_text=&amp;creativeid=342313342233&amp;utm_medium=&amp;template_id=2466&amp;dc_dbm_token=&amp;line_item_id=&amp;experiment_id=2628&amp;universal_site_id=&amp;adsxt_publisher_id=&amp;insertion_order_id=&amp;inventory_source_id=&#39;,{})">
+
+<style type="text/css">
+  body {font-family: 'Avenir', Helvetica, Arial, sans-serif; margin:0;}
+  h2 {
+      font-size: 0.80em; 
+      font-weight: normal; 
+      font-family: 'Avenir', Helvetica, Arial, sans-serif; 
+      line-height: 1.05em; 
+      margin: 0px; 
+      padding: 0.4em 0em; 
+      
+    }
+  h3 {
+      font-size: 18px; 
+      font-weight: normal; 
+      font-family: 'Avenir', Helvetica, Arial, sans-serif; 
+      line-height: 1.05em; 
+      margin: 0px; 
+      padding: 0.4em 0em; 
+      color:#626364;
+      
+    }
+.bucket {
+float:left; display: inline-block;
+padding: 4px 8px 3px 7px;
+margin: 8px 1px 0px 12px;
+border-radius: 4px;
+background-color: #FFD700;
+color: #626364;
+font-size: 0.6em; 
+}
+.bucket:hover {
+    border: 1px solid #0a0f64; 
+    padding: 3px 7px 2px 6px;
+  }
+
+#b1 {animation: 6s ease-in-out 0s glow 4;}
+#b2 {animation: 6s ease-in-out 1s glow 4;}
+#b3 {animation: 6s ease-in-out 2s glow 4;}
+#b4 {animation: 6s ease-in-out 3s glow 4;}
+#b5 {animation: 6s ease-in-out 4s glow 4;}
+#b6 {animation: 6s ease-in-out 5s glow 4;}
+#b7 {animation: 6s ease-in-out 6s glow 4;}
+#b8 {animation: 6s ease-in-out 7s glow 4;}
+
+@keyframes glow {
+0%,22%,100% {background-color: #FFD700; color:#626364;}
+5%,17% {background-color: #0a0f64; color:#FFD700;}
+
+}
+
+</style>
+  
+
+<div id="container" style="margin: 0; background-color: #FFFFFF; padding: 0; font-size: 30px; width: 968px; height: 248px; border: 1px solid #eee; overflow: hidden; text-align: left; position: relative; margin:0px;">
+  <div style="width: 358px; height:226px; float: left;  background-image:url(&#39;https://static.evq1.com/parked_car_garage_overgrown_wide.jpg&#39;); background-size: cover; margin: 12px;  border-radius: 6px; background-repeat: no-repeat; background-position: center;">
+  </div>
+  <div style="width: 564px; float: right; padding: .45em 0; margin-right: 7px;">
+     <img style="width: 200px; margin: 0 auto;  position: absolute; top: 12px; left: 392px;" src="./native_sponsored_everquote.png"> 
+  </div>
+  <div style="width: 564px; float: right; padding:0.05em; padding-top: .65em; margin-right:7px;">
+    <h1 style="font-size: 30px; font-weight: Bold; font-family: &#39;Avenir&#39;, Helvetica, Arial, sans-serif; line-height: 1.08em; color: #0a0f64; margin: 0; padding: 0;">
+      Dearborn, MI: </h1> 
+        <h2> Notice For Cars Used Less Than 25 Miles A Day</h2>
+    
+  </div>
+   <div style="width: 562px; float: right; padding: 0.05em; margin: 0px 9px 0px 0px; ">
+<h3>Michigan drivers are surprised that they never knew this important insurance tip. If you drive less than 25 miles a day, you better read this...</h3>
+   </div> 
+
+
+
+
+<div class="bucket" id="b1">    <h2>Tap Your Age: </h2></div>
+<div class="bucket" id="b2">    <h2> 18-29 </h2> </div>
+<div class="bucket" id="b3">       <h2>30-39 </h2></div>
+<div class="bucket" id="b4">        <h2>40-49 </h2></div>
+<div class="bucket" id="b5">          <h2>50-59 </h2></div>
+<div class="bucket" id="b6">            <h2>60-69 </h2></div>
+<div class="bucket" id="b7">              <h2>70-79 </h2></div>
+<div class="bucket" id="b8">                <h2>80+ </h2></div>
+    
+
+
+</div>
+</div><img class="pixel" src="./pix" width="1" height="1"></body></html>

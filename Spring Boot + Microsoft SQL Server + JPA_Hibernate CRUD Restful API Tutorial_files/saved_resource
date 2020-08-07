@@ -1,0 +1,21 @@
+
+var ftGUID_4163942="4468E8DC833074";
+var ftConfID_4163942="0";
+var ftParams_4163942="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fads%3Fclient%3Dca-pub-5573295123036731%26output%3Dhtml%26h%3D600%26slotname%3D5339450537%26adk%3D2246536973%26adf%3D884375911%26w%3D278%26fwrn%3D4%26fwrnh%3D100%26lmt%3D1596803381%26rafmt%3D1%26psa%3D1%26guci%3D2.2.0.0.2.2.0.0%26format%3D278x600%26url%3Dhttps%253A%252F%252Fwww.javaguides.net%252F2019%252F01%252Fspring-boot-microsoft-sql-server-jpa-hibernate-crud-restful-api-tutorial.html%26flash%3D0%26fwr%3D0%26fwrattr%3Dtrue%26rpe%3D1%26resp_fmts%3D4%26wgl%3D1%26adsid%3DChEI8Pez-QUQ44aQhd-91bDWARJMAI-2h3_1leD8Y7sgnwybTcYAtSIc44mh9qCmls3ocPMgXrAb5nR59SsvZ26NWznCGeGt7f4JijzHdlavbrhY3L9Ns8DjqmCC7rN6pg%26dt%3D1596820108884%26bpp%3D3%26bdt%3D3453%26idt%3D3%26shv%3Dr20200805%26cbv%3Dr20190131%26ptt%3D9%26saldr%3Daa%26abxe%3D1%26cookie%3DID%253D67bd21f0d6ce0be1-22514967e2b70071%253AT%253D1596512542%253ART%253D1596512542%253AS%253DALNI_MY8qJfxv_Uc-4LDvE1lJzMz1MiowA%26prev_fmts%3D0x0%252C128x600%252C128x600%252C1200x280%252C762x280%252C762x2&cachebuster=93321.481739703";
+var ftKeyword_4163942="";
+var ftCustom_4163942="";
+var ftSection_4163942="";
+var ftSegment_4163942="xtx,acfv,w2b,acjr,uad,yqw,uadlaptops_v2,yqwhpbts,nl2,yq6,yos,qqa,qqalaptops,wlf,upn,upnamdsystems,adrg,adri,fs18_13972_1_1592687334,wyg,ad64";
+var ftSegmentList_4163942=[{s:'xtx'},{s:'acfv'},{s:'w2b'},{s:'acjr'},{s:'uad'},{s:'yqw'},{s:'uadlaptops_v2'},{s:'yqwhpbts'},{s:'nl2',t:45590000},{s:'yq6',t:45590000},{m:'bbsoy',s:'yos',t:45590000},{s:'qqa',t:44990000},{s:'qqalaptops',t:44990000},{m:'c12678_page',s:'wlf'},{s:'upn'},{s:'upnamdsystems'},{s:'adrg'},{s:'adri'},{m:'fs18_13972_vp',s:'fs18_13972_1_1592687334'},{s:'wyg',t:45790000},{s:'ad64'}];
+var ftRuleMatch_4163942="0";
+var ftTimestamp_4163942="1596824023";
+var ftImp4163942 = {};
+ftImp4163942.privacy = "x";
+ftImp4163942.guidAge = "134";
+ftImp4163942.impID = "9244EBEB-E79D-F825-AF87-AE6F61F169A5";
+ftImp4163942.duid = "FT:4468E8DC833074";
+
+ftImp4163942.ft_tpplid = "";
+ftImp4163942.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/416/4163942/3139310/js/j-4163942-3139310.js" id="ftscript_m4163942" name="ftscript_m4163942"></scr'+'ipt>');
